@@ -1,4 +1,7 @@
 <html>
+<?php
+echo "Ciao PHP;
+?>
 <!--Test-->
 <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
 <script src="https://raw.githack.com/jeromeetienne/AR.js/2.0.6/aframe/build/aframe-ar.js"></script>
