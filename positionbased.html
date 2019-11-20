@@ -9,7 +9,9 @@
     <body style='margin : 0px; overflow: hidden;'>
         <!-- we add detectionMode and matrixCodeType to tell AR.js to recognize barcode markers -->
         <a-scene gps-camera-debug embedded arjs='sourceType: webcam; debugUIEnabled: false;'>
+            <a-camera gps-camera rotation-reader>
             <a-box color="yellow" gps-entity-place="latitude: <40.88>; longitude: <17.16>"/>
+            </a-camera>
         </a-scene>
     </body>
 </html>
