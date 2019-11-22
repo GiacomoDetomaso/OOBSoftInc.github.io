@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>GeoAR.js demo</title>
+    <title>GeoAR.js demo v0.2</title>
     <script src='https://aframe.io/releases/0.9.2/aframe.min.js'></script>
     <script src="https://raw.githack.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
     <script src="https://raw.githack.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
@@ -21,7 +21,7 @@
             <a-asset-item id="bb-obj" src="https://raw.githubusercontent.com/OOBSoftInc/3dModelsVR/master/Big%20Ben/10059_big_ben_v2_max2011_it1.obj"></a-asset-item>
             <a-asset-item id="bb-mtl" src="https://raw.githubusercontent.com/OOBSoftInc/3dModelsVR/master/Big%20Ben/10059_big_ben_v2_max2011_it1.mtl"></a-asset-item>
           </a-assets>
-        <a-entity gps-entity-place="latitude: 40.9200395; longitude: 17.0269161;" obj-model="obj: #bb-obj; mtl: #bb-mtl"/>
+        <a-entity gps-entity-place="latitude: 40.9200395; longitude: 17.0269161;" obj-model="obj: #bb-obj; mtl: #bb-mtl" scale="0.05 0.05 0.05"/>
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
 </body>
