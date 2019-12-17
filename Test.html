@@ -1,0 +1,20 @@
+<html>
+    <head>
+     	<title>Test</title>
+        <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+        <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+    </head>
+
+    <body>
+        <a-scene embedded arjs='sourceType: webcam; detectionMode: mono; maxDetectionRate: 30'>
+            <a-assets>
+                <a-assets-item id = "test-obj" src = "Orologio.obj"></a-assets-item>
+                <a-assets-item id = "test-mtl" src = "Orologio.mtl"></a-assets-item>
+            </a-assets>
+            <a-marker preset = 'hiro'>
+                <a-entity obj-model = "obj: #test-obj; mtl:#test-mtl"></a-entity>
+            </a-marker>
+        </a-scene>
+        <a-entity camera></a-entity>
+    </body>
+</html>
