@@ -1,0 +1,47 @@
+<html>
+    <body><
+    <h2 class="quizHeader">Take a Quiz!</h2>
+  
+	<table style="width:583px">
+	<tr>
+	  <td>
+	  	<div>
+	  		<p class="question">1. Quiz question #1</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">correct answer 1</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>wrong answer</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>wrong answer</label>
+    		</ul>
+	  	</div>
+	  </td>
+	</tr>
+	</table>
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+<!--show only wrong answers on submit-->
+    <div class="quizAnswers" id="correctAnswer1"></div>
+	    <div class="quizAnswers" id="correctAnswer2"></div>
+    <div class="quizAnswers" id="correctAnswer3"></div>
+    <div class="quizAnswers" id="correctAnswer4"></div>
+
+<!--show score upon submit-->
+    <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+
+</body>
+</html>
