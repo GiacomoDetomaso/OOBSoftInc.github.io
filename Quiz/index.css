@@ -1,0 +1,41 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden
+}
+h2{
+    font: 140% Arial,sans-serif;
+    color:#000000
+}
+
+h1{
+  font:bold 180% Arial,sans-serif;
+  background-color:#01579b;
+  color:#ffffff;
+  text-align: center
+}
+
+#header {
+    height: 10%;
+    font: bold 150% Arial, sans-serif;
+    color: #ffffff;
+    line-height: 10%;
+    background-color: #01579b
+}
+
+#quiz {
+  height: 30%;
+}
+
+#visualizzatore {
+  height: 70%;
+}
+
+.quizSubmit{
+  width: 100%;
+  height: 30;
+}
+
+
